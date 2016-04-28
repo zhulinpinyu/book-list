@@ -1,5 +1,5 @@
 export default function(state=null,action){
-    switch (action.typr) {
+    switch (action.type) {
         case 'BOOK_SELECTED':
             return action.payload
             break;
